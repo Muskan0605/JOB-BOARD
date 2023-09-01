@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Board</title>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h1 class="logo">JobBoard</h1>
+        <div class="menus">
+            <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
+            <a href="#"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
+            <a href="#"><ion-icon name="bookmarks-outline"></ion-icon>Bookmark</a>
+            <a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Message</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+
+        <!-- Adding profile -->
+        <div class="profile">
+            <img class="profile-img" src="profile.jpg">
+            <div class="profile-name">
+                <h4>Bill Gates</h4>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="main-header">
+            <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+          <div class="search">
+            <input type="text" placeholder="Search your job...">
+            <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+          </div>  
+        </div>
+
+        <div class="filter-wrapper">
+            <p>Recommendation</p>
+            <div class="filter">
+                <button class="btn-filter">Web Developer</button>
+                <button class="btn-filter">Full Stack Web Developer</button>
+                <button class="btn-filter">Frontened Developer</button>
+                <button class="btn-filter">Backened Developer</button>
+                <button class="btn-filter">Software Developer Engineer</button>
+                <button class="btn-filter">Android Developer</button>
+                <button class="btn-filter">IOS Developer</button>
+            </div>
+        </div>
+
+        <div class="sort">
+            <p>Sort</p>
+            <div class="sort-list">
+                <select>
+                    <option values="0">All</option>
+                    <option values="1">Newest Post</option>
+                    <option values="2">Oldest Post</option>
+                    <option values="3">Most Relevant</option>
+                    <option values="4">Highest Paid</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="card">
+                 <div class="card-left blue-bg">
+                    <img src="google.svg">
+                 </div>
+                 <div class="card-center">
+                    <h3>Google</h3>
+                    <p class="card-detail">Web Developer, Full Stack Web Developer</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Noida</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon> 1 day ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+                        <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+                    </div>
+                 </div>
+
+                 <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisons</h5>
+                        <a href="#" >Developer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$550k</b><span>/ year</span></p>
+                    </div>
+                 </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-left yellow-bg">
+                   <img src="amazon.svg">
+                </div>
+                <div class="card-center">
+                   <h3>Amazon</h3>
+                   <p class="card-detail">Frontened Engineer , Backened Engineer</p>
+                   <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Greater Noida</p>
+                   <div class="card-sub">
+                       <p><ion-icon name="today-outline"></ion-icon> 2 day ago</p>
+                       <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+                       <p><ion-icon name="people-outline"></ion-icon> 70 Applicants</p>
+                   </div>
+                </div>
+
+                <div class="card-right">
+                   <div class="card-tag">
+                       <h5>Divisons</h5>
+                       <a href="#" >Engineer</a>
+                   </div>
+                   <div class="card-salary">
+                       <p><b>$650k</b><span>/ year</span></p>
+                   </div>
+                </div>
+           </div>
+
+
+           <div class="card">
+            <div class="card-left blue-bg">
+               <img src="meta.svg">
+            </div>
+            <div class="card-center">
+               <h3>Meta</h3>
+               <p class="card-detail">SDE(Software Developer Engineer)</p>
+               <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Gurgaon</p>
+               <div class="card-sub">
+                   <p><ion-icon name="today-outline"></ion-icon> 4 day ago</p>
+                   <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+                   <p><ion-icon name="people-outline"></ion-icon> 90 Applicants</p>
+               </div>
+            </div>
+
+            <div class="card-right">
+               <div class="card-tag">
+                   <h5>Divisons</h5>
+                   <a href="#" >Software Engineeer</a>
+               </div>
+               <div class="card-salary">
+                   <p><b>$950k</b><span>/ year</span></p>
+               </div>
+            </div>
+       </div>
+
+
+       <div class="card">
+        <div class="card-left blue-bg">
+           <img src="microsoft.svg">
+        </div>
+        <div class="card-center">
+           <h3>Microsoft</h3>
+           <p class="card-detail">Andriod Developer</p>
+           <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Pune</p>
+           <div class="card-sub">
+               <p><ion-icon name="today-outline"></ion-icon> 7 day ago</p>
+               <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+               <p><ion-icon name="people-outline"></ion-icon>5 Applicants</p>
+           </div>
+        </div>
+
+        <div class="card-right">
+           <div class="card-tag">
+               <h5>Divisons</h5>
+               <a href="#">Andriod Developer</a>
+           </div>
+           <div class="card-salary">
+               <p><b>$950k</b><span>/ year</span></p>
+           </div>
+        </div>
+   </div>
+
+
+   <div class="card">
+    <div class="card-left red-bg">
+       <img src="youtube.svg">
+    </div>
+    <div class="card-center">
+       <h3>Youtube</h3>
+       <p class="card-detail">UI/UX Designer</p>
+       <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Noida</p>
+       <div class="card-sub">
+           <p><ion-icon name="today-outline"></ion-icon> 8 day ago</p>
+           <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+           <p><ion-icon name="people-outline"></ion-icon>100 Applicants</p>
+       </div>
+    </div>
+
+    <div class="card-right">
+       <div class="card-tag">
+           <h5>Divisons</h5>
+           <a href="#">App Designer</a>
+       </div>
+       <div class="card-salary">
+           <p><b>$850k</b><span>/ year</span></p>
+       </div>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-left black-bg">
+       <img src="apple.svg">
+    </div>
+    <div class="card-center">
+       <h3>Apple</h3>
+       <p class="card-detail">IOS Developer</p>
+       <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Noida</p>
+       <div class="card-sub">
+           <p><ion-icon name="today-outline"></ion-icon> 10 day ago</p>
+           <p><ion-icon name="hourglass-outline"></ion-icon> Full time</p>
+           <p><ion-icon name="people-outline"></ion-icon>50 Applicants</p>
+       </div>
+    </div>
+
+    <div class="card-right">
+       <div class="card-tag">
+           <h5>Divisons</h5>
+           <a href="#">IOS Developer</a>
+       </div>
+       <div class="card-salary">
+           <p><b>$900k</b><span>/ year</span></p>
+       </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+
+    <!-- Right section  details of the jobs -->
+    <div class="detail">
+        <ion-icon class="close-detail" name="close-detail"></ion-icon>
+        <div class="detail-header">
+            <img src="google.svg">
+            <h2>Google</h2>
+            <p>Developer</p>
+        </div>
+             <hr class="divider">
+        <div class="detail-description">
+            <div class="about">
+                <h4>About The Company</h4>
+                <p>Google is an American multinational technology company focusing on artificial intelligence,online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, and consumer electronics. It has been referred to as "the most powerful company in the world .</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualifications">
+                <h4>Qualifications</h4>
+                <ul>
+                    <li>HTML/CSS/JAVASCRIPT</li>
+                    <li>Tailwind CSS</li>
+                    <li>React.Js</li>
+                    <li>Node.Js</li>
+                    <li>SQL</li>
+                    <li>API</li>
+                    <li>Database</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+
+
+
+
+
+    </div>
+  
+   
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+ <!-- Adding Fonts -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <!-- Adding library jquery -->
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="main.js"></script>
+ 
+</html>
